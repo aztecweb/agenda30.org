@@ -7,12 +7,38 @@
     margin-top 40px
     text-align center
 
-    &__small
-      font-size 48px
+    @media ( min-width $screen-md )
+      display flex
+      flex-direction column
+      margin 0 30px
 
-      span
+    &--icon
+      body &
+        @media ( min-width $screen-md )
+          margin-bottom 30px
+
+          &:last-child
+            margin 0
+
+      &__small
+        font-size 48px
         margin 0 5px
 
   &--text
     line-height 1.4em
-    margin-top 30px
+
+    @media ( min-width $screen-md )
+      margin-left 30px
+
+    &__small
+      margin 30px auto
+      max-width 300px
+
+      @media ( min-width $screen-md )
+        margin 0
+
+  .container
+    @media ( min-width $screen-md )
+      align-items center
+      display flex
+      justify-content space-between

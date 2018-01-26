@@ -21,3 +21,18 @@
 
     &__orange
       color $color-6
+
+    &__left
+      text-align left
+
+    &__right
+      text-align right
+
+    ~/__big
+      @media ( min-width $screen-sm )
+        & ^[0..1]
+          &__first
+            font-size 42px
+
+          &__last
+            font-size 72px

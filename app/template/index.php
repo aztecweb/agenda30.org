@@ -25,29 +25,31 @@ get_header(); ?>
 	</div>
 
 	<div class="site-header container">
-		<span class="double-line">
-			<span class="double-line--part double-line--part__first">Universalmente</span>
-			<span class="double-line--part double-line--part__last">necessária,</span> 
-		</span>
-		
-		<span class="double-line">
-			<span class="double-line--part double-line--part__first">Nacionalmente</span>
-			<span class="double-line--part double-line--part__last">urgente,</span> 
-		</span>
-		
-		<span class="double-line">
-			<span class="double-line--part double-line--part__first">localmente</span>
-			<span class="double-line--part double-line--part__last">aderente.</span> 
-		</span>
+		<div class="site-header--text">
+			<span class="double-line">
+				<span class="double-line--part double-line--part__first double-line--part__left">Universalmente</span>
+				<span class="double-line--part double-line--part__last double-line--part__left">necessária,</span> 
+			</span>
+			
+			<span class="double-line">
+				<span class="double-line--part double-line--part__first">Nacionalmente</span>
+				<span class="double-line--part double-line--part__last">urgente,</span> 
+			</span>
+			
+			<span class="double-line">
+				<span class="double-line--part double-line--part__first double-line--part__right">localmente</span>
+				<span class="double-line--part double-line--part__last double-line--part__right">aderente.</span> 
+			</span>
+		</div>
 		
 		<img class="site-header--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/guri.jpg' ); ?>" alt="Guri">
 	</div>
 	
-	<div class="pq">
+	<div class="pq content-section">
 		<div class="container">
 			<div class="pq--title">Pq?</div>
 			
-			<div class="pq--text">
+			<div class="content-section--text pq--text">
 				<p>	
 				Nam risus ex, congue non dolor egestas, porta maximus metus. Praesent vestibulum tortor ut urna ullamcorper, at consectetur mauris laoreet. Integer sed blandit est. Mauris vestibulum nisi pretium est bibendum, vel dapibus metus condimentum. Fusce nec lectus leo. Etiam lobortis ipsum ligula, ac sagittis turpis rutrum vitae. Nullam efficitur vitae lacus non vulputate.
 				</p>
@@ -69,14 +71,14 @@ get_header(); ?>
 		</div>
 	</div>
 	
-	<div class="themes">
+	<div class="themes content-section">
 		<div class="container">
-			<span class="themes--title double-line">
+			<span class="themes--title double-line double-line__big">
 				<span class="double-line--part double-line--part__first double-line--part__white">Nossos</span>
 				<span class="double-line--part double-line--part__last">temas</span> 
 			</span>
 			
-			<ol class="themes--list">
+			<ol class="content-section--text themes--list">
 				<li>O mundo tem jeito?</li>
 				<li>Viver melhor a vida, com o que podemos sonhar?</li>
 				<li>Ética e participação, quais as saídas?</li>
@@ -97,17 +99,17 @@ get_header(); ?>
 	
 	<div class="pulse content-section">
 		<div class="container">
-			<span class="double-line">
+			<span class="double-line double-line double-line__big">
 				<span class="double-line--part double-line--part__first double-line--part__white">A agenda</span>
 				<span class="double-line--part double-line--part__last double-line--part__blue">Pulsando</span> 
 			</span>
 			
 			<div class="content-section--icons">
-				<span class="i-slack"></span>
-				<span class="i-wordpress"></span>
+				<span class="i-slack content-section--icons--icon"></span>
+				<span class="i-wordpress content-section--icons--icon"></span>
 			</div>
 			
-			<div class="content-section--text">
+			<div class="content-section--text content-section--text__small">
 				Sed at tortor vitae sem placerat pretium. Duis vehicula euismod ante in ornare. Proin ac sem pulvinar, placerat ante eu, varius nibh. In hac habitasse platea dictumst. 
 			</div>
 		</div>
@@ -115,19 +117,19 @@ get_header(); ?>
 	
 	<div class="contact content-section">
 		<div class="container">
-			<span class="double-line">
+			<span class="double-line double-line__big">
 				<span class="double-line--part double-line--part__first double-line--part__white">Nossos</span>
 				<span class="double-line--part double-line--part__last double-line--part__orange">pontos</span>
 				<span class="double-line--part double-line--part__last double-line--part__orange">de contato</span>
 			</span>
 			
-			<div class="content-section--icons content-section--icons__small">
-				<span class="i-instagram"></span>
-				<span class="i-facebook"></span>
-				<span class="i-twitter"></span>
+			<div class="content-section--icons">
+				<span class="i-instagram content-section--icons--icon content-section--icons--icon__small"></span>
+				<span class="i-facebook content-section--icons--icon content-section--icons--icon__small"></span>
+				<span class="i-twitter content-section--icons--icon content-section--icons--icon__small"></span>
 			</div>
 			
-			<div class="content-section--text">
+			<div class="content-section--text content-section--text__small">
 				Sed at tortor vitae sem placerat pretium. Duis vehicula euismod ante in ornare. Proin ac sem pulvinar, placerat ante eu, varius nibh. In hac habitasse platea dictumst. 
 			</div>
 		</div>
@@ -144,6 +146,9 @@ get_header(); ?>
 			<div class="site-branding">
 				<a href="<?php echo esc_url( home_url( '/' ) ) ?>">
 					<img class="site-branding--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/agenda30-branco.png' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) )?>">
+				</a>
+				<a href="https://aztecweb.net" title="Feito com &#9829; por Aztec - Especialista WordPress">
+					<img class="aztec" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/aztec.png' ); ?>" alt="Aztec - Especialista WordPress">
 				</a>
 			</div>
 		</div>

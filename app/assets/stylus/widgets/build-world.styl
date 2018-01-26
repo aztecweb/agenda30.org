@@ -1,8 +1,20 @@
 .build-world
   background-image url( '../images/mundo-a-construir.jpg' )
 
+  .container
+    max-width 900px
+
   .image-section--text
     bottom 20px
     color $white
     font-size 20px
     text-shadow 0 0 5px alpha( $black, .9 )
+
+    @media ( min-width $screen-sm )
+      font-size 36px
+
+    @media ( min-width $screen-md )
+      bottom 110px
+
+    @media ( min-width $screen-lg )
+      font-size 54px
