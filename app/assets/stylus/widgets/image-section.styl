@@ -5,6 +5,12 @@
     background-size cover
     position relative
 
+    @media ( orientation landscape )
+      height 100vh
+
+      &:before
+        content none
+
   &--text
     font-family $dk
     left 0
