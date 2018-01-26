@@ -17,6 +17,10 @@
 
 get_header(); ?>
 
+
+<h1 class="font-din">DIN</h1>
+<h1 class="font-dk">DK</h1>
+
 <main>
 	<section>
 		<?php

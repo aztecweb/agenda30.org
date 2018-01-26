@@ -9,6 +9,10 @@ module.exports = {
 		src: '<%= config.template.src %>',
 		dest: '<%= config.template.build %>'
 	},
+	fonts: {
+		src: '<%= config.assets.src %>/fonts',
+		dest: '<%= config.assets.build %>/fonts'
+	},
 	assets: {
 		src: '<%= config.assets.build %>',
 		dest: '<%= config.template.src %>/assets'
