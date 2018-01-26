@@ -9,14 +9,15 @@ require 'recipe/npm.php';
 require 'app/recipe/bower.php';
 require 'app/recipe/grunt.php';
 
-host('baseproject.aztecweb.net')
+host('107.22.150.147')
 	->stage('production')
-	->user('baseproject')
-	->set('deploy_path', '/home/baseproject')
+	->user('agenda30')
+	->set('deploy_path', '/home/agenda30')
 	->set('http_user', 'www-data');
 
-set('repository', 'git@greatcode.aztecweb.net:aztecwebteam/base-project.git');
+set('repository', 'git@github.com:aztecweb/agenda30.org.git');
 set('branch', 'master');
+set('ssh_multiplexing', false);
 
 set('shared_files', [
 	'.env'
