@@ -17,30 +17,137 @@
 
 get_header(); ?>
 
+<div class="page">
+	<div class="site-branding">
+		<a href="<?php echo esc_url( home_url( '/' ) ) ?>">
+			<img class="site-branding--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/agenda30.jpg' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) )?>">
+		</a>
+	</div>
 
-<h1 class="font-din">DIN</h1>
-<h1 class="font-dk">DK</h1>
+	<div class="site-header container">
+		<span class="double-line">
+			<span class="double-line--part double-line--part__first">Universalmente</span>
+			<span class="double-line--part double-line--part__last">necessária,</span> 
+		</span>
+		
+		<span class="double-line">
+			<span class="double-line--part double-line--part__first">Nacionalmente</span>
+			<span class="double-line--part double-line--part__last">urgente,</span> 
+		</span>
+		
+		<span class="double-line">
+			<span class="double-line--part double-line--part__first">localmente</span>
+			<span class="double-line--part double-line--part__last">aderente.</span> 
+		</span>
+		
+		<img class="site-header--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/guri.jpg' ); ?>" alt="Guri">
+	</div>
+	
+	<div class="pq">
+		<div class="container">
+			<div class="pq--title">Pq?</div>
+			
+			<div class="pq--text">
+				<p>	
+				Nam risus ex, congue non dolor egestas, porta maximus metus. Praesent vestibulum tortor ut urna ullamcorper, at consectetur mauris laoreet. Integer sed blandit est. Mauris vestibulum nisi pretium est bibendum, vel dapibus metus condimentum. Fusce nec lectus leo. Etiam lobortis ipsum ligula, ac sagittis turpis rutrum vitae. Nullam efficitur vitae lacus non vulputate.
+				</p>
+				<p>
+				Vestibulum laoreet faucibus orci, id rhoncus justo efficitur sed. Aenean non viverra lectus. Suspendisse imperdiet sit amet lacus vel consectetur. In nulla elit, ultricies sit amet eros vitae, consectetur sagittis risus. Vivamus in nisi nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ac ipsum eget tellus gravida tempor in ut orci. Phasellus et ligula vitae magna rutrum suscipit. Praesent eget consequat diam. Proin convallis, orci nec bibendum eleifend, nulla risus fringilla ipsum, accumsan elementum quam turpis mattis lectus. Fusce eleifend odio sit amet quam consequat scelerisque.
+				</p>
+				<p>
+				Vestibulum felis sem, pulvinar eget magna in, fermentum tempor turpis. Ut eu orci ut ligula convallis facilisis feugiat non dui. Suspendisse potenti. Fusce fermentum fermentum consectetur. Ut aliquam eleifend mauris sit amet pellentesque. Fusce ut varius ante. Maecenas ac consequat eros. Quisque et risus quis ex imperdiet porttitor ut vitae diam. Donec efficitur velit eget tempor molestie. Curabitur efficitur efficitur ligula varius dignissim. Sed lobortis nibh nec mi porttitor, ut imperdiet dui hendrerit.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="build-world image-section--wrapper">
+		<div class="image-section">
+			<div class="image-section--text container">
+				Que mundo estamos comprometidos a construir?
+			</div>
+		</div>
+	</div>
+	
+	<div class="themes">
+		<div class="container">
+			<span class="themes--title double-line">
+				<span class="double-line--part double-line--part__first double-line--part__white">Nossos</span>
+				<span class="double-line--part double-line--part__last">temas</span> 
+			</span>
+			
+			<ol class="themes--list">
+				<li>O mundo tem jeito?</li>
+				<li>Viver melhor a vida, com o que podemos sonhar?</li>
+				<li>Ética e participação, quais as saídas?</li>
+				<li>Nosso país pode ter paz?</li>
+				<li>Economia sustentável e includente.</li>
+				<li>Há salvação fora da inovação</li>
+			</ol>
+		</div>
+	</div>
+	
+	<div class="get-involved image-section--wrapper">
+		<div class="image-section">
+			<div class="image-section--text container">
+				Criticar é muito pouco. Envolva-se
+			</div>
+		</div>
+	</div>
+	
+	<div class="pulse content-section">
+		<div class="container">
+			<span class="double-line">
+				<span class="double-line--part double-line--part__first double-line--part__white">A agenda</span>
+				<span class="double-line--part double-line--part__last double-line--part__blue">Pulsando</span> 
+			</span>
+			
+			<div class="content-section--icons">
+				<span class="i-slack"></span>
+				<span class="i-wordpress"></span>
+			</div>
+			
+			<div class="content-section--text">
+				Sed at tortor vitae sem placerat pretium. Duis vehicula euismod ante in ornare. Proin ac sem pulvinar, placerat ante eu, varius nibh. In hac habitasse platea dictumst. 
+			</div>
+		</div>
+	</div>
+	
+	<div class="contact content-section">
+		<div class="container">
+			<span class="double-line">
+				<span class="double-line--part double-line--part__first double-line--part__white">Nossos</span>
+				<span class="double-line--part double-line--part__last double-line--part__orange">pontos</span>
+				<span class="double-line--part double-line--part__last double-line--part__orange">de contato</span>
+			</span>
+			
+			<div class="content-section--icons content-section--icons__small">
+				<span class="i-instagram"></span>
+				<span class="i-facebook"></span>
+				<span class="i-twitter"></span>
+			</div>
+			
+			<div class="content-section--text">
+				Sed at tortor vitae sem placerat pretium. Duis vehicula euismod ante in ornare. Proin ac sem pulvinar, placerat ante eu, varius nibh. In hac habitasse platea dictumst. 
+			</div>
+		</div>
+	</div>
 
-<main>
-	<section>
-		<?php
-		while ( have_posts() ) :
-			the_post();
-?>
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="newsletter">
+		<div class="container">
+			<h2 class="newsletter--title">Envolva-se</h2>
+			
+			<form class="newsletter--form" action="#" method="POST">
+				<input type="text" placeholder="receba a nossa newsletter" />
+			</form>
+			
+			<div class="site-branding">
+				<a href="<?php echo esc_url( home_url( '/' ) ) ?>">
+					<img class="site-branding--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/agenda30-branco.png' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) )?>">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
 
-			<?php the_post_thumbnail( 'full' ); ?>
-
-			<h2>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-			</h2>
-
-			<?php the_excerpt(); ?>
-
-		</article>
-		<?php endwhile; ?>
-
-		<p><?php posts_nav_link(); ?></p>
-	</section>
-</main>
 <?php get_footer(); ?>

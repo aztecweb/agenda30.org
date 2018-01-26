@@ -8,9 +8,17 @@ module.exports = {
 			livereload: true
 		}
 	},
+	images: {
+		files: ['<%= config.assets.src %>/images/**/*.{png,jpg,gif,svg}'],
+		tasks: ['imagemin']
+	},
 	stylus: {
 		files: ['.stylintrc', '<%= config.assets.src %>/stylus/**/*.styl'],
 		tasks: ['stylint', 'stylus:dev']
+	},
+	icons: {
+		files: ['<%= config.assets.src %>/icons/**/*'],
+		tasks: ['stylus:dev', 'symlink:icons']
 	},
 	js: {
 		files: ['<%= config.assets.src %>/theme/js/**/*.js'],

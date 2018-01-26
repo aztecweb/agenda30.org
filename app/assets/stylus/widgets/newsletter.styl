@@ -1,0 +1,28 @@
+.newsletter
+  background $black
+  color $white
+  padding 25px 0 1px
+  text-align center
+
+  &--title
+    font-family $dk
+    font-size 32px
+
+  &--form
+    margin-bottom 20px
+
+    input
+      height 35px
+      border-radius ( @height / 2 )
+      font-size 20px
+      line-height @height
+      margin 0 auto
+      max-width 350px
+      text-align center
+
+      +placeholder()
+          color alpha( $black, .4 )
+
+  .site-branding
+    &--image
+      max-width 80px
