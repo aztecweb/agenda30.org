@@ -50,14 +50,20 @@ get_header(); ?>
 			<div class="pq--title">Pq?</div>
 			
 			<div class="content-section--text pq--text">
-				<p>	
-				Nam risus ex, congue non dolor egestas, porta maximus metus. Praesent vestibulum tortor ut urna ullamcorper, at consectetur mauris laoreet. Integer sed blandit est. Mauris vestibulum nisi pretium est bibendum, vel dapibus metus condimentum. Fusce nec lectus leo. Etiam lobortis ipsum ligula, ac sagittis turpis rutrum vitae. Nullam efficitur vitae lacus non vulputate.
+				<p>
+				No mundo, sonho e distopia andam lado a lado. Avanços tecnológicos revolucionários expandem a vida ao erradicar doenças até aqui incuráveis e projetam um futuro de abundância e oportunidades. 
 				</p>
 				<p>
-				Vestibulum laoreet faucibus orci, id rhoncus justo efficitur sed. Aenean non viverra lectus. Suspendisse imperdiet sit amet lacus vel consectetur. In nulla elit, ultricies sit amet eros vitae, consectetur sagittis risus. Vivamus in nisi nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ac ipsum eget tellus gravida tempor in ut orci. Phasellus et ligula vitae magna rutrum suscipit. Praesent eget consequat diam. Proin convallis, orci nec bibendum eleifend, nulla risus fringilla ipsum, accumsan elementum quam turpis mattis lectus. Fusce eleifend odio sit amet quam consequat scelerisque.
+				Ao mesmo tempo, observamos o renascimento da intolerância mais primitiva, a mesma que, há apenas 70 anos, levou a humanidade a temer por seu destino.
 				</p>
 				<p>
-				Vestibulum felis sem, pulvinar eget magna in, fermentum tempor turpis. Ut eu orci ut ligula convallis facilisis feugiat non dui. Suspendisse potenti. Fusce fermentum fermentum consectetur. Ut aliquam eleifend mauris sit amet pellentesque. Fusce ut varius ante. Maecenas ac consequat eros. Quisque et risus quis ex imperdiet porttitor ut vitae diam. Donec efficitur velit eget tempor molestie. Curabitur efficitur efficitur ligula varius dignissim. Sed lobortis nibh nec mi porttitor, ut imperdiet dui hendrerit.
+				No Brasil temos uma população aberta a inovações, ambiciosa, empreendedora e festiva. Já o sistema político, quando não está alheio, tem sido diretamente responsável pelas imensas frustrações da sociedade. Entre os dois há um fosso intransponível, preenchido por ressonante desesperança.
+				</p>
+				<p>
+				Alheias a esse sentimento, as visões mais rasas, os sentimentos mais regressistas e os grupos de interesse mais mesquinhos, apropriaram-se do espaço público. Na paisagem política, à esquerda ou à direita, nada autoriza a pensar que estamos lançando as bases para a construção de uma grande nação.
+				</p>
+				<p>
+				As propostas para a descontinuidade do modelo atual são localizadas e insuficientes. Pouco se tem discutido sobre uma visão autônoma e ambiciosa para ressignificar o papel do Brasil no mundo, como outros emergentes estão fazendo com determinação.
 				</p>
 			</div>
 		</div>
@@ -80,8 +86,8 @@ get_header(); ?>
 			
 			<ol class="content-section--text themes--list">
 				<li>O mundo tem jeito?</li>
-				<li>Viver melhor a vida, com o que podemos sonhar?</li>
-				<li>Ética e participação, quais as saídas?</li>
+				<li>Viver melhor a vida. Com o que podemos sonhar?</li>
+				<li>Ética e participação. Quais as saídas?</li>
 				<li>Nosso país pode ter paz?</li>
 				<li>Economia sustentável e includente.</li>
 				<li>Há salvação fora da inovação</li>
@@ -110,7 +116,7 @@ get_header(); ?>
 			</div>
 			
 			<div class="content-section--text content-section--text__small">
-				Sed at tortor vitae sem placerat pretium. Duis vehicula euismod ante in ornare. Proin ac sem pulvinar, placerat ante eu, varius nibh. In hac habitasse platea dictumst. 
+				Engaje-se nas nossas discussões através do Slack e conheça nossas reflexões e pensamentos através da nossa produção no Medium.
 			</div>
 		</div>
 	</div>
@@ -124,13 +130,27 @@ get_header(); ?>
 			</span>
 			
 			<div class="content-section--icons">
-				<span class="i-instagram content-section--icons--icon content-section--icons--icon__small"></span>
-				<span class="i-facebook content-section--icons--icon content-section--icons--icon__small"></span>
-				<span class="i-twitter content-section--icons--icon content-section--icons--icon__small"></span>
+				<a class="i-instagram content-section--icons--icon content-section--icons--icon__small" href="https://www.instagram.com/Agenda3.0/" target="_blank">
+					Instagram
+				</a>
+				<a class="i-facebook content-section--icons--icon content-section--icons--icon__small" href="https://www.facebook.com/agenda3.0/" target="_blank">
+					Facebook
+				</a>
+				<a class="i-twitter content-section--icons--icon content-section--icons--icon__small" href="https://twitter.com/Agenda_30/" target="_blank">
+					Twitter
+				</a>
+				<a class="i-soundcloud content-section--icons--icon content-section--icons--icon__small" href="https://soundcloud.com/agenda30/" target="_blank">
+					SoundCloud
+				</a>
 			</div>
 			
 			<div class="content-section--text content-section--text__small">
-				Sed at tortor vitae sem placerat pretium. Duis vehicula euismod ante in ornare. Proin ac sem pulvinar, placerat ante eu, varius nibh. In hac habitasse platea dictumst. 
+				<p>
+				Acompanhe e se junte a nós nas nossas redes sociais e compartilhe das nossas ideias.
+				</p>
+				<p>
+				Você é muito bem-vindo.
+				</p>
 			</div>
 		</div>
 	</div>

@@ -14,15 +14,25 @@
 
     &--icon
       body &
+        color $white
+        display inline-block
+        height 61px
+        overflow hidden
+        text-decoration none
+        width 60px
+
         @media ( min-width $screen-md )
           margin-bottom 30px
 
           &:last-child
             margin 0
 
-      &__small
-        font-size 48px
-        margin 0 5px
+        &__small
+          font-size 48px
+          margin-left 5px
+          margin-right 5px
+          height 48px
+          width 48px
 
   &--text
     line-height 1.4em
