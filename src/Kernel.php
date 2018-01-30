@@ -40,6 +40,7 @@ class Kernel {
 			\Aztec\Setup\Head::class,
 			\Aztec\Setup\HttpHeader::class,
 			\Aztec\Setup\Textdomain::class,
+			\Aztec\Setup\Title::class,
 		];
 
 		foreach ( $init_classes as $class ) {
