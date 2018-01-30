@@ -103,6 +103,7 @@ get_header(); ?>
 		</div>
 	</div>
 	
+	<?php /*
 	<div class="pulse content-section">
 		<div class="container">
 			<span class="double-line double-line double-line__big">
@@ -120,6 +121,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
+	*/ ?>
 	
 	<div class="contact content-section">
 		<div class="container">
@@ -157,11 +159,13 @@ get_header(); ?>
 
 	<div class="newsletter">
 		<div class="container">
+			<?php /*
 			<h2 class="newsletter--title">Envolva-se</h2>
 			
 			<form class="newsletter--form" action="#" method="POST">
 				<input type="text" placeholder="receba a nossa newsletter" />
 			</form>
+			*/ ?>
 			
 			<div class="site-branding">
 				<a href="<?php echo esc_url( home_url( '/' ) ) ?>">
