@@ -171,8 +171,13 @@ get_header(); ?>
 				<a href="<?php echo esc_url( home_url( '/' ) ) ?>">
 					<img class="site-branding--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/agenda30-branco.png' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) )?>">
 				</a>
-				<a href="https://aztecweb.net" title="Feito com &#9829; por Aztec - Especialista WordPress">
-					<img class="aztec" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/aztec.png' ); ?>" alt="Aztec - Especialista WordPress">
+			</div>
+			<div class="brands">
+				<a href="https://www.conchworks.com/" title="Design por Counch Works">
+					<img class="brands--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/conch-works.png' ); ?>" alt="Conch Works">
+				</a>
+				<a href="https://aztecweb.net" title="Desenvolvimento por Aztec - Especialista WordPress">
+					<img class="brands--image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/aztec.png' ); ?>" alt="Aztec">
 				</a>
 			</div>
 		</div>

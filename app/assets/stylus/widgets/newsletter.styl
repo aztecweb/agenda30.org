@@ -1,11 +1,8 @@
 .newsletter
   background $black
   color $white
-  padding 25px 0 1px
+  padding 25px 0
   text-align center
-
-  @media ( min-width $screen-md )
-    padding-bottom 20px
 
   &--title
     font-family $dk
@@ -37,23 +34,22 @@
         width 320px
 
   .container
-    @media ( min-width $screen-md )
       align-items center
       display flex
       justify-content space-between
 
-  .site-branding
-    margin 0 auto
-
-    // @media ( min-width $screen-md )
-    //   margin 0
-
     a
       text-decoration none
 
-    &--image
-      max-width 80px
+  .site-branding
+    float left
+    margin 0
 
-  .aztec
-    margin-left 10px
-    width 30px
+    &--image
+      width 200px
+
+  .brands
+    &--image
+      display inline-block
+      margin-left 10px
+      width 30px
