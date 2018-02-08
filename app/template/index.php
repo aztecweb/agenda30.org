@@ -90,7 +90,7 @@ get_header(); ?>
 				<li>Ética e participação. Quais as saídas?</li>
 				<li>Nosso país pode ter paz?</li>
 				<li>Economia sustentável e includente.</li>
-				<li>Há salvação fora da inovação</li>
+				<li>Há salvação fora da inovação?</li>
 			</ol>
 		</div>
 	</div>
@@ -143,6 +143,9 @@ get_header(); ?>
 				</a>
 				<a class="i-soundcloud content-section--icons--icon content-section--icons--icon__small" href="https://soundcloud.com/agenda30/" target="_blank">
 					SoundCloud
+				</a>
+				<a class="i-youtube content-section--icons--icon content-section--icons--icon__small" href="https://soundcloud.com/agenda30/" target="_blank">
+					YouTube
 				</a>
 			</div>
 			

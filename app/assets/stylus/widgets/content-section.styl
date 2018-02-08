@@ -14,12 +14,14 @@
 
     &--icon
       body &
-        color $white
         display inline-block
         height 61px
         overflow hidden
         text-decoration none
         width 60px
+
+        &:before
+          color $white
 
         @media ( min-width $screen-md )
           margin-bottom 30px
