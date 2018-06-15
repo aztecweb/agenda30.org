@@ -144,7 +144,7 @@ get_header(); ?>
 				<a class="i-soundcloud content-section--icons--icon content-section--icons--icon__small" href="https://soundcloud.com/agenda30/" target="_blank">
 					SoundCloud
 				</a>
-				<a class="i-youtube content-section--icons--icon content-section--icons--icon__small" href="https://soundcloud.com/agenda30/" target="_blank">
+				<a class="i-youtube content-section--icons--icon content-section--icons--icon__small" href="https://www.youtube.com/channel/UCnsMT6ujxesrI2ZLjEn3Zqg" target="_blank">
 					YouTube
 				</a>
 			</div>
